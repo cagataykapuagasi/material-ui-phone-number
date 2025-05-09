@@ -605,6 +605,9 @@ class MaterialUiPhoneNumber extends React.Component {
 
     const FlagComponent = Flags[selectedCountry.iso2.toUpperCase()];
 
+    console.log("FlagComponent", FlagComponent);
+    console.log("selectedCountry.iso2.toUpperCase()", selectedCountry.iso2.toUpperCase());
+
     const dropdownProps = disableDropdown ? {} : {
       startAdornment: (
         <InputAdornment
